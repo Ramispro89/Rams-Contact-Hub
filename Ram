@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      background: #fff;
+      max-width: 500px;
+      width: 100%;
+      margin-top: 50px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .contact-link {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact-link:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Connect with Me</h1>
+    
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/crazyraammm?igsh=MW0zOWg3Z3l3eTZwMQ==" class="contact-link" target="_blank">
+      Instagram
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/919673978223" class="contact-link" target="_blank">
+      WhatsApp: +91 96739 78223
+    </a>
+
+    <!-- Discord -->
+    <a href="https://discord.gg/vHxZxf6y" class="contact-link" target="_blank">
+      Join Discord
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:tvdeshmukh.9049388988@gmail.com" class="contact-link" target="_blank">
+      Send Email
+    </a>
+  </div>
+
+  <!-- FastBots.ai Embed -->
+  <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cmbqg8q2n0003oelx9zbrjf3g"></script>
+</body>
+</html>
